@@ -1,0 +1,98 @@
+body{
+    max-height: 100vh;
+    color: #000;
+    background-color: #C1FFD7;
+    font-family: 'Poppins';
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #555;
+}
+button{
+    /* margin-top: 30px; */
+    font-weight: bolder;
+    box-shadow: 0px 3px 3px #000;
+}
+p{
+    padding: 2%;
+}
+.nav-item{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin: 0 5px ;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+}
+.conatiner-fluid{
+    margin-top: 130px;
+    padding: 0 7%;
+}
+.row{
+    margin:0;
+    min-height: 180px;
+}
+.nav-margin{
+    padding: 1.5% 8%;
+}
+.result{
+    min-height: 90%;
+    border-radius: 5px;
+    background-color:#FCFFA6;
+    box-shadow: 0px 6px 6px #000;
+}
+.result p{
+    letter-spacing: 1px;
+}
+
+.kanan{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+.kiri{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    transform: scaleX(-1);
+}
+
+footer{
+    position:absolute ;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #777;
+}
+
+@media only screen and (max-width: 1000px) {
+    h1{
+        font-size: 2.8rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    .conatiner-fluid{
+        margin-top: 80px;
+    }
+    button {
+      margin-top: 30px;
+    }
+    .result{
+        margin-top: 20px;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+    .result{
+        min-height: 140px;
+    }
+  }
