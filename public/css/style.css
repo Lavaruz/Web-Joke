@@ -95,4 +95,7 @@ footer{
     .result{
         min-height: 140px;
     }
+    footer{
+    font-size: .7rem;
+    }
   }
